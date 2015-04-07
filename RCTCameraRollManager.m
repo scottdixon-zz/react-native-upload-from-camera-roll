@@ -140,7 +140,7 @@
                   @"height": @(dimensions.height),
                   @"width": @(dimensions.width),
                   @"isStored": @YES,
-                  @"test": base64Encoded,
+                  @"base64": base64Encoded,
                   },
                 @"timestamp": @([date timeIntervalSince1970]),
                 @"location": loc ?
