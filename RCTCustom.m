@@ -6,7 +6,7 @@
 
 @implementation ReadImageData
 
-- (void)processString:(NSString *)input callback:(RCTResponseSenderBlock)callback
+- (void)readImage:(NSString *)input callback:(RCTResponseSenderBlock)callback
 {
   RCT_EXPORT(); // available as NativeModules.MyCustomModule.processString
  
