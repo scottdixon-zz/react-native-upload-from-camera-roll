@@ -8,7 +8,7 @@
 
 RCT_EXPORT_MODULE();
 
-RCT_EXPORT_METHOD(processString:(NSString *)input callback:(RCTResponseSenderBlock)callback)
+RCT_EXPORT_METHOD(readImage:(NSString *)input callback:(RCTResponseSenderBlock)callback)
 {
 
   // Create NSURL from uri
